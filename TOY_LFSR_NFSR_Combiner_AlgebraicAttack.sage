@@ -104,3 +104,4 @@ for i in range(len(EQ_Sub)):
 # M
 print(M.solve_right(w))
 # print(w)
+print(n)
