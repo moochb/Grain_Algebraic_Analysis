@@ -26,7 +26,6 @@ for i in range(len(s),n):
     #(s0s1s2+1)z0+(s0s1s2+1)s9=0
     G[i] = (S[i-1]+1)*Y[i-3]+S[i-2]*(S[i-1]+1)
 
-
     # print(i,G[i])
     #create a matrix that will hold the final equations (the sum of those given with respect to the keystream bits + those given by the linear approximation)
 EQ = list(var('eq%d' %i) for i in (0..1000))
