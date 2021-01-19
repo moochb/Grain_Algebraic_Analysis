@@ -16,7 +16,7 @@ state_size = 15
 no_output_bits=2000
 
 #degree of the system of equations to be solved
-degree = 4
+degree = 3
 
 #the number of monomials of degree 1->max degree
 #the variables 'no_monomials' will be the number of linearisation variables
@@ -46,7 +46,6 @@ for i in range(no_output_bits):
 #We therefore initialise a vector 'add' that will be appended to s to hold all the update bits (one vector for equations with respect to keystream bits S and one with respect the the linear approximation$
 add=[0]*no_clocks
 S = s+add
-Gz = s+add
 G = s+add
 
 #Generate equations for update using output bits
@@ -72,7 +71,7 @@ for i in range(len(s),no_clocks):
 # get rid of redundant equations
 EQ_=EQ[len(s):no_clocks]
 
-EQ_1 = [0]*len(EQ_)*len(EQ_[0])
+EQ_1 = EQ_
 
 #From the code in "FAA_FindingLinearCombination_Generic_LFSR_NFSR_Combiner_AlgebraicAttackn=15_Homeogeneous"
 #we see that the linear combination that will remove all higher order terms beyond 2 is
