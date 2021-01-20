@@ -138,18 +138,46 @@ w= vector(F,[0]*len(EQ_Sub))
 M_1 = transpose(M)
 # print(N_1)
 
+# R = M_1.echelon_form()
+# R = R%2
+# R = R.rref()
+# R = R%2
+# # print(R[0:81])
+
+# # EQ[80]+EQ[80+23]+EQ[80+38]+EQ[80+51]+EQ[80+62]+EQ[80+67]+EQ[80+80]
+# for i in range(l):
+#     print(i+1,sum(R[:,i]))
 R = M_1.echelon_form()
 R = R%2
 R = R.rref()
 R = R%2
 # print(R[0:81])
 
-# EQ[80]+EQ[80+23]+EQ[80+38]+EQ[80+51]+EQ[80+62]+EQ[80+67]+EQ[80+80]
-for i in range(len(R)):
-    if sum(R[:,i]!=1):
-        col = i
-        break
+#find the first column of the coefficient matrix that is linearly dependent
+# col = 0
+# for i in range(1,R.ncols()):
+#     if sum(R[:,i])!=1:
+#         col = i
+#         print(col)
+#         print(R[:,col])
+#         break
+col = binomial(state_size,degree)
+#We are going to print the linear combination to a file for good keeping 
+#save the original standard output as a reference       
+original_stdout = sys.stdout
 
-for j in range(len(EQ_Sub)):
+#create a file called stuff.txt with writing privledges 
+fil = open("stuff.txt","w")
+
+#set standard output to the file stuff.txt
+sys.stdout = fil
+
+#print the equation number that is depenedent
+print("EQ_[{}]+".format(col),end='')
+
+#for our linearly dependent row, print the combination of equations that produces it
+for j in range(R.nrows()):
             if R[j,col]==1:
-                print("EQ_[{}]+".format(i), end='')
+                print("EQ_[{}]+".format(j), end='')
+
+sys.stdout = original_stdout
