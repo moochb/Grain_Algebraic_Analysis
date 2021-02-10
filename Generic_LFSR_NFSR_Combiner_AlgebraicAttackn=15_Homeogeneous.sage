@@ -120,10 +120,10 @@ for i in range(len(EQ_1)):
     #make substitution for monomials without output bits
     EQ_Sub[i] = sum(EQ_1[i].monomial_coefficient(m) * v for m,v in d.items())
 
-#     #make substitution for monomials with output bits
-#     for j in range(len(W)):
-#         EQ_SubWithY[i]= sum(EQ_1[i].monomial_coefficient(m*Y[j]) * v for m,v in d.iteritems())
-#         EQ_Sub[i] = EQ_Sub[i]+EQ_SubWithY[i]*Y[j]
+    #make substitution for monomials with output bits
+    for j in range(len(W)):
+        EQ_SubWithY[i]= sum(EQ_1[i].monomial_coefficient(m*Y[j]) * v for m,v in d.iteritems())
+        EQ_Sub[i] = EQ_Sub[i]+EQ_SubWithY[i]*Y[j]
 #We are interested in the coefficients of the variables
 #Initialise coefficient matrix
 F = GF(2)
