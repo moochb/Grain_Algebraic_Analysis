@@ -18,6 +18,23 @@ no_output_bits=7000
 #degree of the system of equations to be solved
 degree = 4
 
+
+#Produce output to use for solving system
+s_out = [0,0,1,0,1,1,0,1,0,0,1,1,1,0,0,0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,1,1,0,0,0,0,1,0,0,1]
+b_out = [0,1,1,0,1,0,0,1,1,1,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,1,0,1,0,1,1,0,1,0,1,0,1,0,0,0]
+
+add=[0]*no_clocks
+S_out = s_out+add
+B_out = b_out+add
+
+
+
+O = [0]*(no_clocks-state_size)
+for i in range(len(s_out),no_clocks):
+    O[i-state_size] =mod((S_out[i-(state_size-13)]+S_out[i-(state_size-1)]*S_out[i-(state_size-9)]+S_out[i-(state_size-4)]*S_out[i-(state_size-9)]+S_out[i-(state_size-9)]*S_out[i-(state_size-13)])*B_out[i-(state_size-4)]+(S_out[i-(state_size-4)]+S_out[i-(state_size-1)]*S_out[i-(state_size-13)]+S_out[i-(state_size-9)]*S_out[i-(state_size-13)]+S_out[i-(state_size-1)]*S_out[i-(state_size-4)]*S_out[i-(state_size-9)]+S_out[i-(state_size-1)]*S_out[i-(state_size-9)]*S_out[i-(state_size-13)]),2)
+    B_out[i] = mod(S_out[i-(state_size-0 )]+ B_out[i-(state_size-0 )]+ B_out[i-(state_size-13 )]+ B_out[i-(state_size-19 )]+ B_out[i-(state_size-15 )]+ B_out[i-(state_size-2)]*B_out[i-(state_size-15 )]+ B_out[i-(state_size-3)]*B_out[i-(state_size-5 )]+ B_out[i-(state_size-7)]*B_out[i-(state_size-8 )]+ B_out[i-(state_size-14)]*B_out[i-(state_size-19 )]+ B_out[i-(state_size-13)]*B_out[i-(state_size-6)]*B_out[i-(state_size-17)]*B_out[i-(state_size-18 )]+ B_out[i-(state_size-10)]*B_out[i-(state_size-11)]*B_out[i-(state_size-12 )],2)
+    S_out[i] = mod((S_out[i-20]+S_out[i-9]+S_out[i-5]+S_out[i-3]),2)
+
 #the number of monomials of degree 1->max degree
 #the variables 'no_monomials' will be the number of linearisation variables
 #'scipy.special.comb' provides the binomial coefficient
@@ -56,8 +73,8 @@ for i in range(len(s),no_clocks):
      
 #Generate equations for update using linear approximation
 for i in range(len(s),no_clocks):
-    #(13 + 1*9 + 4*9 + 9*13)z = (13 + 1*9 + 4*9 + 9*13) * (4 + 1*13 + 9*13 + 1*4*9 + 1*9*13)
-    G[i] = (S[i-(state_size-13)]+S[i-(state_size-1)]*S[i-(state_size-9)]+S[i-(state_size-4)]*S[i-(state_size-9)]+S[i-(state_size-9)]*S[i-(state_size-13)])*Y[i-(state_size)]+(S[i-(state_size-13)]+S[i-(state_size-1)]*S[i-(state_size-9)]+S[i-(state_size-4)]*S[i-(state_size-9)]+S[i-(state_size-9)]*S[i-(state_size-13)])*(S[i-(state_size-4)]+S[i-(state_size-1)]*S[i-(state_size-13)]+S[i-(state_size-9)]*S[i-(state_size-13)]+S[i-(state_size-1)]*S[i-(state_size-4)]*S[i-(state_size-9)]+S[i-(state_size-1)]*S[i-(state_size-9)]*S[i-(state_size-13)])
+	#z = 4 + 1*13 + 9*13 + 1*4*9 + 1*9*13 + b12(13 + 1*9 + 4*9 + 9*13)
+    G[i] = (S[i-(state_size-13)]+S[i-(state_size-1)]*S[i-(state_size-9)]+S[i-(state_size-4)]*S[i-(state_size-9)]+S[i-(state_size-9)]*S[i-(state_size-13)]+1)*Y[i-(state_size)]+(S[i-(state_size-13)]+S[i-(state_size-1)]*S[i-(state_size-9)]+S[i-(state_size-4)]*S[i-(state_size-9)]+S[i-(state_size-9)]*S[i-(state_size-13)]+1)*(S[i-(state_size-4)]+S[i-(state_size-1)]*S[i-(state_size-13)]+S[i-(state_size-9)]*S[i-(state_size-13)]+S[i-(state_size-1)]*S[i-(state_size-4)]*S[i-(state_size-9)]+S[i-(state_size-1)]*S[i-(state_size-9)]*S[i-(state_size-13)])
 
 
 #create a matrix that will hold the final equations (the sum of those given with respect to the keystream bits + those given by the linear approximation)
