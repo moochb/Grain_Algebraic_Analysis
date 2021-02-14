@@ -7,16 +7,16 @@ start = timeit.timeit()
 #define the paramaters
 
 #how many clocks are required
-no_clocks = 10000
+no_clocks = 5000
 
 #the size of the register
 state_size = 15
 
 #how many output bits are needed
-no_output_bits=10000
+no_output_bits=5000
 
 #degree of the system of equations to be solved
-degree = 2
+degree = 3
 
 #the number of monomials of degree 1->max degree
 #the variables 'no_monomials' will be the number of linearisation variables
@@ -84,8 +84,7 @@ for j in range(no_clocks-state_size-max(Alpha)):
     #s1s2z=s1s2s9
     #Here we are going to build two systems; one containing z, the other not
            #Left[j]  = Left[j]+(S[(i+state_size)-(state_size-3)]*S[(i+state_size)-(state_size-1)]*S[(i+state_size)-(state_size-6 )]+ S[(i+state_size)-(state_size-1)]*S[(i+state_size)-(state_size-10)]*S[(i+state_size)-(state_size-6)])
-        Final_System [j] = Final_System[j]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-4 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-1)]+(S[(i+state_size+j)-(state_size-13)]+S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-9)]*S[(i+state_size+j)-(state_size-13)]+1)*O[(i+j)]
-# for i in range(len(Final_System)):
+            Final_System [j] = Final_System[j]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-4 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-1)]+(S[(i+state_size+j)-(state_size-13)]+S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-9)]*S[(i+state_size+j)-(state_size-13)]+1)*O[i+j]        # for i in range(len(Final_System)):
 #     for j in range(len(O)):
 #         m = eval("x" + str(state_size+j))
 #         n = eval('O['+str(j)+']')
