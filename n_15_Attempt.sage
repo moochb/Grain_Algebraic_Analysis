@@ -67,11 +67,6 @@ s = [0]*state_size
 for i in range(state_size):
     s[i] = eval("x" + str(i))
 
-#define initial state
-s = [0]*state_size
-for i in range(state_size):
-    s[i] = eval("x" + str(i))
-
 #Initialise arrays for LFSR state sequence and system of equations to be solved
 add=[0]*no_clocks
 S = s+add
@@ -83,6 +78,7 @@ for j in range(len(Final_System)-state_size):
            #Left[j]  = Left[j]+(S[(i+state_size)-(state_size-3)]*S[(i+state_size)-(state_size-1)]*S[(i+state_size)-(state_size-6 )]+ S[(i+state_size)-(state_size-1)]*S[(i+state_size)-(state_size-10)]*S[(i+state_size)-(state_size-6)])
             # Final_System [j] = Final_System[j]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-4 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-1)]+(S[(i+state_size+j)-(state_size-13)]+S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-9)]*S[(i+state_size+j)-(state_size-13)]+1)*O[i+j]        # for i in range(len(Final_System)):
     Final_System[j] = Final_System[j]+S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-13)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-13)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-13 )]+ S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-4 )]+ S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-13)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-13 )]+ S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-1)]+(S[(state_size+j)-(state_size-13)]+S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-9)]+S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-9)]+S[(state_size+j)-(state_size-9)]*S[(state_size+j)-(state_size-13)]+1)*O[j]
+    S[i] = S[i-15]+S[i-8])
 
 U = [0]*no_monomials
 for i in range(no_monomials):
@@ -124,13 +120,13 @@ for j in range(len(Final_System_Sub)):
         M[j,i] = Final_System_Sub[j].monomial_coefficient(U[i])
 w= vector(F,[0]*len(Final_System_Sub))
 
-# for i in range(len(Final_System)):
-# #     if (EQ_1[i].monomial_coefficient(1)==1):
-#     if (Final_System[i].monomial_coefficient(1)==1):      
-#         w[i]=1
+for i in range(len(Final_System)):
+#     if (EQ_1[i].monomial_coefficient(1)==1):
+    if (Final_System[i].monomial_coefficient(1)==1):      
+        w[i]=1
 
-# A = print(M.solve_right(w))
-A = M.right_kernel()
+A = print(M.solve_right(w))
+# A = M.right_kernel()
 # print(A.dimension())
 print(A)
 
