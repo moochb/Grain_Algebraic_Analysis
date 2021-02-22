@@ -76,10 +76,10 @@ Final_System = [0]*(no_clocks-state_size-max(Alpha))
 
 #Generate equations for update using output bits
 # S[15] = S[0]+S[7]
-for i in range(len(s),no_clocks):
+for i in range(no_clocks):
      S[i] = (S[i-40]+S[i-35]+S[i-25]+S[i-20]+S[i-15]+S[i-6])
 
-for j in range(no_clocks-state_size-max(Alpha)):
+for j in range(len(Final_System)):
     for i in Alpha:
     #s1s2z=s1s2s9
     #Here we are going to build two systems; one containing z, the other not
@@ -94,9 +94,7 @@ for j in range(no_clocks-state_size-max(Alpha)):
 U = [0]*no_monomials
 for i in range(no_monomials):
     U[i] = eval("x" + str(state_size+i))
-# print(len(U))
-# print(s)
-#create monomial list and count the number of combinations
+
 monomials =[1]*1
 for i in range(1,len(U)):
     C = Combinations(s,i)
@@ -124,8 +122,6 @@ for i in range(len(Final_System)):
     #make substitution for monomials without output bits
     Final_System_Sub[i] = sum(Final_System[i].monomial_coefficient(m) * v for m,v in d.items())
 
-
-
 F = GF(2)
 M = matrix(F,len(Final_System_Sub),len(U))
 #Fill coefficient matrix with 1s in posisitons corresponding to initial
@@ -133,18 +129,22 @@ M = matrix(F,len(Final_System_Sub),len(U))
 for j in range(len(Final_System_Sub)):
     for i in range(len(U)):
         M[j,i] = Final_System_Sub[j].monomial_coefficient(U[i])
-w= vector(F,[0]*len(Final_System_Sub))
+w= vector([0]*len(Final_System_Sub))
+# w = [0]*len(Final_System)
 
-# for i in range(len(Final_System)):
-# #     if (EQ_1[i].monomial_coefficient(1)==1):
-#     if (Final_System[i].monomial_coefficient(1)==1):      
-#         w[i]=1
-        
-# A = print(M.solve_right(w))
+# M = transpose(M)
+
+for i in range(len(Final_System)):
+#     if (EQ_1[i].monomial_coefficient(1)==1):
+    if (Final_System[i].monomial_coefficient(1)==1):      
+        w[i]=1
+# print(w.parent())
+print(M.solve_right(w))
 A = M.right_kernel()
-print(A.dimension())
-print(A[1])
-
+# # print(A.dimension())
+print(A)
+for i in range(A.dimension()):
+    print(A[i])
 stop = timeit.timeit()
 
 print(stop-start)
