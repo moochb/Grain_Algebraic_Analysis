@@ -77,7 +77,7 @@ Final_System = [0]*(no_clocks-state_size-max(Alpha))
 #Generate equations for update using output bits
 # S[15] = S[0]+S[7]
 for i in range(no_clocks):
-     S[i] = (S[i-40]+S[i-35]+S[i-25]+S[i-20]+S[i-15]+S[i-6])
+	S[(i+state_size)] =(S[(i+state_size)-20]+S[(i+state_size)-9]+S[(i+state_size)-5]+S[(i+state_size)-3])
 
 for j in range(len(Final_System)):
     for i in Alpha:
