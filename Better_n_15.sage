@@ -1,9 +1,9 @@
 import scipy.special
 from itertools import combinations 
-import timeit
+import time
 import random
 
-start = timeit.timeit()
+startprecomp = time.perf_counter()
 #define the paramaters
 
 #how many clocks are required
@@ -92,6 +92,10 @@ for j in range(len(Final_System)):
         Final_System[j] = Final_System[j]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-4 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-1)]+(S[(i+state_size+j)-(state_size-13)]+S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-9)]*S[(i+state_size+j)-(state_size-13)]+1)*O[i+j]
         # Final_System[j] = Final_System[j]+S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-13)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-13)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-13 )]+ S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-4 )]+ S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-13)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-13 )]+ S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-9 )]+ S[(state_size+j)-(state_size-1)]+(S[(state_size+j)-(state_size-13)]+S[(state_size+j)-(state_size-1)]*S[(state_size+j)-(state_size-9)]+S[(state_size+j)-(state_size-4)]*S[(state_size+j)-(state_size-9)]+S[(state_size+j)-(state_size-9)]*S[(state_size+j)-(state_size-13)]+1)*O[j]
 
+stopprecomp = time.perf_counter()
+
+
+start = time.perf_counter()
 #     for j in range(len(O)):
 #         m = eval("x" + str(state_size+j))
 #         n = eval('O['+str(j)+']')
@@ -151,9 +155,11 @@ A = M.right_kernel()
 print(A)
 for i in range(A.dimension()):
     print(A[i])
-stop = timeit.timeit()
 
-print(stop-start)
+stop = time.perf_counter()
+
+print("precomp",stopprecomp-startprecomp)
+print("online",stop-start)
 
 
 # original_output = sys.stdout
