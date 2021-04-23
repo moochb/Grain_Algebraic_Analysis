@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "n_15_Attempt.sage.py", line 69, in <module>
+    s[i] = eval("x" + str(i))
+  File "<string>", line 1, in <module>
+NameError: name 'x0' is not defined

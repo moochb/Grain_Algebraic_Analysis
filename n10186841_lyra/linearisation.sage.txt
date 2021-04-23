@@ -1,0 +1,52 @@
+#define polynomial ring of all the varaibles that will be used
+K.<x,y,z,w1,w2,z1,z2,z3,z4,z5,z6,z7,z8> = PolynomialRing(GF(2))
+
+#define varible list
+Z = [z1,z2,z3,z4,z5,z6,z7,z8]
+
+#define state variables
+Y = [x,y,z]
+
+#define ouput variables
+W = [w1,w2]
+#create ring for the substituted variables
+# R.<z1,z2,z3,z4,z5,z6> = PolynomialRing(GF(2))
+
+#define an equation to linearise
+EQ_1 = [x+y+x*y+z*x*y+z*w1+x*y*w2,x+x*y+z*x*y*w1+z*w1+x*y*w2]
+# p = x+y+x*y+z*x*y+z*w1+x*y*w2
+
+
+#initialise dictionary
+d = {}
+
+#create monomial list and count the number of combinations
+C = Combinations(Y)
+no = C.cardinality()
+result =[1]*no
+for i in range(no):
+    for x in C[i]:
+        result[i]=result[i]*x
+
+#define deictionary for substitution
+
+for i in range(1,8):
+    d[result[i]] = Z[i-1]
+d
+
+EQ_SubWithoutY = [0]*len(EQ_1)
+EQ_SubWithY = [0]*len(EQ_1)
+EQ_Sub = [0]*len(EQ_1)
+#For each equation in the system
+for i in range(len(EQ_1)):    
+    EQ_Sub[i] = sum(EQ_1[i].monomial_coefficient(m) * v for m,v in d.items())
+    
+    for j in range(len(W)):
+        EQ_SubWithY[i]= sum(EQ_1[i].monomial_coefficient(m*W[j]) * v for m,v in d.items())
+        EQ_Sub[i] = EQ_Sub[i]+EQ_SubWithY[i]*W[j]
+    
+print(EQ_1)
+print(EQ_SubWithoutY)
+print(EQ_Sub)
+len(W)
+print(no)

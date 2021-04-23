@@ -1,0 +1,4 @@
+print("hello world")
+exit
+x = 2+2
+x

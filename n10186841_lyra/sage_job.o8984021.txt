@@ -1,0 +1,4 @@
+PBS Job 8984021.pbs
+CPU time  : 00:14:40
+Wall time : 00:15:40
+Mem usage : 641380kb

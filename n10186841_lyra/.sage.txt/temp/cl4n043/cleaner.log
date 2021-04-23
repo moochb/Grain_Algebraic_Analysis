@@ -1,0 +1,20 @@
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n043
+Starting sage-cleaner with PID 14976
+Checking PIDs []
+Checking PIDs [14983]
+Checking PIDs [14983]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n043
+sage-cleaner is already running with PID 14976, exiting
+Checking PIDs [14983]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n043
+Starting sage-cleaner with PID 15540
+Checking PIDs []
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n043
+sage-cleaner is already running with PID 15540, exiting
+Checking PIDs [15546]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n043
+Starting sage-cleaner with PID 15742
+Checking PIDs []
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n043
+sage-cleaner is already running with PID 15742, exiting
+Checking PIDs [15748]

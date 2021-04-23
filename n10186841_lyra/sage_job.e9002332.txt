@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/misc/temporary_file.py", line 425, in __exit__
+    os.rename(self.tempname, self.target)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/n10186841/.sage/cache/tmpypwj67mc' -> '/home/n10186841/.sage/cache/4a2a2420ab85e7ad4a965ca7a0c11a2ff66a254e8df7e831e332f5a770739756-lazy_import_cache.pickle'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Better_n_20.sage.py", line 4, in <module>
+    from sage.all_cmdline import *   # import sage library
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/all_cmdline.py", line 26, in <module>
+    from sage.all import *
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/all.py", line 296, in <module>
+    sage.misc.lazy_import.save_cache_file()
+  File "sage/misc/lazy_import.pyx", line 1115, in sage.misc.lazy_import.save_cache_file (build/cythonized/sage/misc/lazy_import.c:8070)
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/misc/temporary_file.py", line 427, in __exit__
+    os.unlink(self.target)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/n10186841/.sage/cache/4a2a2420ab85e7ad4a965ca7a0c11a2ff66a254e8df7e831e332f5a770739756-lazy_import_cache.pickle'

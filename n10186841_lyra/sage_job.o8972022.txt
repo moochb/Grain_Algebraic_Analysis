@@ -1,0 +1,4 @@
+PBS Job 8972022.pbs
+CPU time  : 00:30:34
+Wall time : 00:30:57
+Mem usage : 151256kb

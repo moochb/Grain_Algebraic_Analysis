@@ -1,0 +1,4 @@
+JOB NUMBER				DESCRIPTION									MEM/TIME			COMPLETED?
+9405717					Better_n_30									500g/100hours		RUNNING
+9420169					Grain_128_Modified_NFSR_State_Recovery		10g/1 hours 		YES
+9420173					Grain_128_Modified_NFSR_State_Recovery		10g/1 hours			YES

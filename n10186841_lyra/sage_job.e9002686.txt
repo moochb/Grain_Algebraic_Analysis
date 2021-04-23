@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/misc/temporary_file.py", line 425, in __exit__
+    os.rename(self.tempname, self.target)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/n10186841/tmp4qeai9kc' -> '/home/n10186841/Better_n_20.sage.py'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/pkg/suse12/software/SageMath/9.1/bin/sage-preparse", line 303, in <module>
+    do_preparse(f)
+  File "/pkg/suse12/software/SageMath/9.1/bin/sage-preparse", line 160, in do_preparse
+    f.write('\n')
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/misc/temporary_file.py", line 427, in __exit__
+    os.unlink(self.target)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/n10186841/Better_n_20.sage.py'

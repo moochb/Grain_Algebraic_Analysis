@@ -1,0 +1,1 @@
+/pkg/suse12/software/SageMath/9.1/bin/sage-python: line 2: 44707 Killed                  sage -python "$@"

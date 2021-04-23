@@ -1,0 +1,4 @@
+PBS Job 8984010.pbs
+CPU time  : 00:43:19
+Wall time : 00:45:21
+Mem usage : 184764kb

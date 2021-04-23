@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "n_15_Attempt.sage.py", line 122, in <module>
+    Final_System_Sub[i] = sum(Final_System[i].monomial_coefficient(m) * v for m,v in d.items())
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/misc/functional.py", line 577, in symbolic_sum
+    return sum(expression, *args)
+  File "n_15_Attempt.sage.py", line 122, in <genexpr>
+    Final_System_Sub[i] = sum(Final_System[i].monomial_coefficient(m) * v for m,v in d.items())
+  File "sage/structure/element.pyx", line 487, in sage.structure.element.Element.__getattr__ (build/cythonized/sage/structure/element.c:4613)
+  File "sage/structure/element.pyx", line 500, in sage.structure.element.Element.getattr_from_category (build/cythonized/sage/structure/element.c:4722)
+  File "sage/cpython/getattr.pyx", line 394, in sage.cpython.getattr.getattr_from_other_class (build/cythonized/sage/cpython/getattr.c:2613)
+AttributeError: 'sage.rings.finite_rings.integer_mod.IntegerMod_int' object has no attribute 'monomial_coefficient'

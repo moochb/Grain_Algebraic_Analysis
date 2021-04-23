@@ -1,0 +1,41 @@
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n094
+Starting sage-cleaner with PID 16733
+Checking PIDs []
+Checking PIDs []
+Checking PIDs [16787]
+Checking PIDs [16787]
+Checking PIDs [16787]
+Checking PIDs [16787]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n094
+Starting sage-cleaner with PID 57580
+Checking PIDs [16787]
+Process 16787 is no longer running, so we clean up
+Deleting /home/n10186841/.sage/temp/cl4n094/16787
+Checking PIDs []
+Checking PIDs [57663]
+Checking PIDs [57663]
+Checking PIDs [57663]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n094
+Starting sage-cleaner with PID 53661
+Checking PIDs []
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n094
+Starting sage-cleaner with PID 57920
+Checking PIDs [53667]
+Process 53667 is no longer running, so we clean up
+Deleting /home/n10186841/.sage/temp/cl4n094/53667
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n094
+Starting sage-cleaner with PID 69272
+Checking PIDs [57926]
+Process 57926 is no longer running, so we clean up
+Deleting /home/n10186841/.sage/temp/cl4n094/57926
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n094
+Starting sage-cleaner with PID 70491
+Checking PIDs [69278]
+Process 69278 is no longer running, so we clean up
+Deleting /home/n10186841/.sage/temp/cl4n094/69278
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n094
+Starting sage-cleaner with PID 12400
+Checking PIDs [70498]
+Process 70498 is no longer running, so we clean up
+Deleting /home/n10186841/.sage/temp/cl4n094/70498
+Checking PIDs [12406]

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "Better_n_20.sage.py", line 3221, in <module>
+    print(A[_sage_const_1 ])
+  File "sage/structure/parent.pyx", line 1206, in sage.structure.parent.Parent.__getitem__ (build/cythonized/sage/structure/parent.c:10920)
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/categories/enumerated_sets.py", line 464, in __getitem__
+    return self.unrank(i)
+  File "/pkg/suse12/software/SageMath/9.1/lib/python3.7/site-packages/sage/categories/enumerated_sets.py", line 665, in _unrank_from_iterator
+    raise ValueError("the value must be between %s and %s inclusive"%(0,counter-1))
+ValueError: the value must be between 0 and 0 inclusive

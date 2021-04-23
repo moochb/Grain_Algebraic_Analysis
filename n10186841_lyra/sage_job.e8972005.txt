@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "Generic_LFSR_NFSR_Combiner_AlgebraicAttackn=15_Homeogeneous.sage.py", line 131, in <module>
+    EQ_SubWithY[i]= sum(EQ_1[i].monomial_coefficient(m*Y[j]) * v for m,v in d.iteritems())
+AttributeError: 'dict' object has no attribute 'iteritems'

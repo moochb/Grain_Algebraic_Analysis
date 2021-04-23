@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "Better_n_20.sage.py", line 3217, in <module>
+    print(M.solve_right(w))
+  File "sage/matrix/matrix2.pyx", line 833, in sage.matrix.matrix2.Matrix.solve_right (build/cythonized/sage/matrix/matrix2.c:8310)
+  File "sage/matrix/matrix2.pyx", line 956, in sage.matrix.matrix2.Matrix._solve_right_general (build/cythonized/sage/matrix/matrix2.c:9635)
+ValueError: matrix equation has no solutions

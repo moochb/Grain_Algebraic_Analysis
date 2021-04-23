@@ -1,0 +1,124 @@
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+Starting sage-cleaner with PID 37004
+Checking PIDs []
+Checking PIDs [37026]
+Checking PIDs [37026]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+Starting sage-cleaner with PID 63321
+Checking PIDs [37026]
+Process 37026 is no longer running, so we clean up
+Deleting /home/n10186841/.sage/temp/cl4n091/37026
+Checking PIDs [63327]
+Checking PIDs [63327]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+Starting sage-cleaner with PID 15698
+Checking PIDs [63327]
+Process 63327 is no longer running, so we clean up
+Deleting /home/n10186841/.sage/temp/cl4n091/63327
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+Starting sage-cleaner with PID 16666
+Checking PIDs []
+Checking PIDs [16672]
+Checking PIDs [16672]
+Checking PIDs [16672]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+sage-cleaner is already running with PID 16666, exiting
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+Starting sage-cleaner with PID 32664
+Checking PIDs []
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+sage-cleaner is already running with PID 32664, exiting
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+Checking PIDs [32671]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+Starting sage-cleaner with PID 21930
+Checking PIDs []
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+Checking PIDs [21936]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+sage-cleaner is already running with PID 21930, exiting
+Checking PIDs [21936]
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+Starting sage-cleaner with PID 26464
+Checking PIDs []
+SAGE_TMP_ROOT = /home/n10186841/.sage/temp/cl4n091
+Starting sage-cleaner with PID 39034
+Checking PIDs []

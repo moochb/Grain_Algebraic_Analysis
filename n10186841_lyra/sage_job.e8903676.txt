@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "n_20_BetterWayToBuildReduceSystem.sage.py", line 3163, in <module>
+    U[i] = eval("x" + str(state_size+no_output_bits+i))
+  File "<string>", line 1, in <module>
+NameError: name 'x15020' is not defined

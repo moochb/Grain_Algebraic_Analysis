@@ -1,0 +1,23 @@
+#!/bin/bash -l
+#PBS -N sage_job
+#PBS -l ncpus=1
+#PBS -l mem=10gb
+#PBS -l walltime=1:00:00
+cd $PBS_O_WORKDIR
+
+#Load all required modules for the job
+module load sagemath
+
+#sage Generic_LFSR_NFSR_Combiner_AlgebraicAttackn=15_Homeogeneous.sage
+#sage n_15_Attempt.sage
+#sage Better_n_15.sage
+#sage scipyspecial.sage
+#sage Better_n_20.sage
+#sage Better_n_15_Build_System_PrintToFile.sage
+#sage TEST_n_15.sage
+#sage Better_n_15_Build_System_ReadFromFile.sage
+#sage n_20_NFSR_Exhaustive_Recovery_100Trials.sage
+#sage Better_Sprout.sage
+#sage Better_n_25.sage
+#sage Better_n_30.sage
+sage Grain_128_Modified_NFSR_State_Recovery.sage

@@ -1,0 +1,1000 @@
+ls
+rm sage_job.e8896355 sage_job.o8896355
+qstat -u n10186841
+ls
+cat sage_job.e8896811
+nano example.save
+qsub example.save
+ls
+rm sage_job.e8896811 sage_job.o8896811
+ls
+qstat -u n10186841
+nano example.save
+qsub example.save
+ls
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qdel 8899952.pbs
+qstat -u n10186841
+nano example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qdel 8899682.pbs 
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8902273
+qsub example.save
+ls
+rm sage_job*
+ls
+qstat -u n10186841
+qdel 8902274.pbs 
+qsub example.save
+qstat -u n10186841
+nano n_20_BetterWayToBuildReduceSystem.sage
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8902500
+qsub example.save
+qstat -u n10186841
+rm sage_job*
+ls
+rm sage_job*
+qstat -u n10186841
+ls
+nano example.save
+qsub example.save
+qstat -u n10186841
+la
+ls
+cat sage_job.e8902507
+cat sage_job.e8902283
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8902511
+nano example.save
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+rm sage_job*
+qstat -u n10186841
+qdel 8902502.pbs
+qstat -u n10186841
+qdel 8902502.pbs
+qstat -u n10186841
+nano example.save
+qstat -u n10186841
+ls
+cat sage_job.e8902502
+cat sage_job.o8902502
+ls
+cat sage_job.e8902519
+nano example.save
+qsub example.save
+qstat -u n10186841
+rm sage_job*
+qstat -u n10186841
+ls
+cat sage_job.e8902514
+qstat -u n10186841
+ls
+cat sage_job.e8902514
+cat sage_job.e8902521
+nano example.save
+qsub example.save
+qstat -u n10186841
+rm sage_job*
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qdel 8902513.pbs 
+ls
+cat sage_job.e8902531
+cat sage_job.e8902513
+cat sage_job.o8902513
+rm sage_job*
+qstat -u n10186841
+qstat -u n10186841
+quit
+logout
+qstat -u n10186841
+ls
+cat sage_job.e8902543
+nano test
+nano TEST.sage
+ls
+nano test.sage
+nano TEST.sage
+nano TEST
+nano example.save
+nano Better_n_15.sage
+qsub example.save
+rm sage_job*
+qstat -u n10186841
+ls
+cat sage_job.e8903148
+cat sage_job.o8903148
+nano Better_n_15.sage
+qsub example.save
+rm sage_job*
+qstat -u n10186841
+ls
+cat sage_job.e8903213
+cat sage_job.o8903213
+ls
+rm n_20_BetterWayToBuildReduceSystem.sage n_20_BetterWayToBuildReduceSystem.sage.py
+ls
+nano example.sve
+nano example.save
+qsub example.save
+qstat -u n10186841
+nano TEST.sage
+nano example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+qdel 8903634.pbs
+qstat -u n10186841
+nano Better_n_15
+nano Better_n_15.sage
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 8903648.pbs 
+qstat -u n10186841
+nano example.save
+qstat -u n10186841
+ls
+rm sage_job*
+ls
+qstat -u n10186841
+ls 
+cat sage_job.e8903650
+cat sage_job.o8903650
+ls
+rm Sprout_BetterWayToBuildReducedSystem Sprout_BetterWayToBuildReducedSystem.sage Sprout_BetterWayToBuildReducedSystem.sage.py
+ls
+rm Sprout_BetterWayToBuildReducedSystem Sprout_BetterWayToBuildReducedSystem.sage Sprout_BetterWayToBuildReducedSystem.sage.py
+ls
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 8900584.pbs
+qstat -u n10186841
+nano Better_n_15.sage
+nano example.save
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 8903660.pbs
+qstat -u n10186841
+ls
+nano Better_n_15.sage
+qstat -u n10186841
+nano example.save
+qstat -u n10186841
+ls
+cat sage_job.e8903661
+cat sage_job.o8903661
+nano example.save
+ls
+nano example.save
+nano n_20_BetterWayToBuildReduceSystem.sage
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8903661
+qstat -u n10186841
+nano exmaple.save
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 8903681.pbs
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8903661
+cat sage_job.o8903661
+cat sage_job.e8903676
+cat sage_job.e8903682
+nano example.save
+rm n_20_BetterWayToBuildReduceSystem.sage n_20_BetterWayToBuildReduceSystem.sage.py
+nano n_20_BetterWayToBuildReduceSystem.sage
+qsub example.save
+qstat -u n10186841
+qdel 8904306.pbs
+qdel 8903658.pbs
+nano exmple.save
+nano example.save
+qsub example.save
+nano Sprout_BetterWayToBuildReducedSystem.sage
+nano example.save
+qsub example.save
+nano example.save
+qsub example.save
+qstat -u n10186841
+nano Sprout_BetterWayToBuildReduceSystem.sage
+ls
+nano Sprout_BetterWayToBuildReducedSystem.sage
+ls
+cat sage_job.e8904307
+cat sage_job.o8904307
+ls
+nano n_20_BetterWayToBuildReduceSystem.sage
+ls
+nano Sprout_BetterWayToBuildReducedSystem.sage
+nano example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+nano Better_n_15.sage
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8905401
+cat sage_job.e8905401
+nano Better_n_15.sage
+qsub example.save
+ls
+rm sage_job.e8905401 sage_job.o8905401
+ls
+qstat -u n10186841
+cat
+ls
+cat sage_job.o8905447
+qsub example.save
+nano Better_n_15.sage
+qstat -u n10186841
+ls
+cat Better_n_15.txt
+cat sage_job.e8905463
+nano Better_n_15.sage
+qsub example.save
+ls
+rm sage_job.e8905463 sage_job.o8905463
+qstat -u n10186841
+nano Sprout_BetterWayToBuildReducedSystem.sage
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8905933
+ls
+cat sage_job.o8905447
+cat sage_job.e8905933nano 
+cat Better_n_15.txt
+cat sage_job.o8905933
+qstat -u n10186841
+ls
+qstat -u n10186841
+ls
+nano Better_n_15.sage
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 8904883.pbs
+qstat -u n10186841
+ls
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8906456
+cat sage_job.o8906456
+qsub example.save
+ls 
+rm sage_job.e8906456 sage_job.o8906456 
+cat sage_job.o8903632
+qstat -u n10186841
+ls
+cat sage_job.o8906486
+cat sage_job.e8906486
+qsub example.save
+ls
+rm sage_job.o8906486 sage_job.e8906486
+qstat -u n10186841
+ls 
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8906513
+qsub example.save
+ls
+rm sage_job.o8906513 sage_job.e8906513
+ls
+qsub example.save
+qstat -u n10186841
+qdel 8906806.pbs 8906805.pbs
+qstat -u n10186841
+nano example.save
+qdel 8906804.pbs
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8906515
+cat sage_job.e8906515
+cat Better_n_15.txt
+qstat -u n10186841
+ls
+cat sage_job.o8906807
+qsub example.save
+ls
+qstat -u n10186841
+ls
+cat sage_job.o8906818
+cat sage_job.e8906818
+qsub example.save
+ls
+rm sage_job.o8906818 sage_job.e8906818
+qstat -u n10186841
+ls
+cat sage_job.o8906820
+qsub example.save
+ls
+rm sage_job.o8906820 sage_job.e8906820
+ls
+qstat -u n10186841
+ls
+cat sage_job.o8906821
+qstat -u n10186841
+qsub example.save
+nano example.save
+qstat -u n10186841
+ls
+cat sage_job.o8906910
+ls
+cat sage_job.e8906910
+qsub example.save
+ls
+rm sage_job.o8906910 sage_job.e8906910
+qstat -u n10186841
+ls
+cat sage_job.o8906911
+qsub example.save
+ls
+rm sage_job.o8906911 sage_job.e8906911
+qstat -u n10186841
+ls
+cat sage_job.o8906922
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8906927
+qsub example.save
+ls
+rm sage_job.o8906927 sage_job.e8906927
+qstat -u n10186841
+ls
+cat sage_job.o8906928
+cat sage_job.e8906928
+qsub example.save
+ls
+rm sage_job.o8906928 sage_job.e8906928
+qstat -u n10186841
+ls
+cat sage_job.o8906929
+qsub example.save
+ls
+rm sage_job.o8906929 sage_job.e8906929
+ls
+qstat -u n10186841
+ls
+cat sage_job.o8906940
+cat sage_job.e8906940
+qsub example.save
+ls
+rm sage_job.o8906940 sage_job.e8906940
+qstat -u n10186841
+ls
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8906941
+qstat -u n10186841
+;s
+ls
+cat sage_job.o8906945
+cat sage_job.e8906945
+qsub example.save
+ls
+rm sage_job.o8906945 sage_job.e8906945
+nano example.save
+qstat -u n10186841
+ls
+catsage_job.e8906949
+cat sage_job.e8906949
+qsub example.save
+ls
+rm sage_job.o8906949 sage_job.o8906949
+rm sage_job.o8906949 sage_job.e8906949
+qstat -u n10186841
+ls
+cat sage_job.o8906952
+cat sage_job.e8906952
+cat Better_n_15.txt
+qstat -u n10186841
+nano example.save
+nano Sprout_BetterWayToBuildReducedSystem.sage
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 8904309.pbs
+qstat -u n10186841
+qdel 8904309.pbs
+qstat -u n10186841
+ls
+cat sage_job.e8940402
+nano Sprout_BetterWayToBuildReducedSystem.sage
+qsub example.save
+ls
+rm sage_job.o8940402 sage_job.e8940402
+qstat -u n10186841
+ls
+catsage_job.o8903632
+cat sage_job.o8903632
+ls
+cat sage_job.o8903650
+cat sage_job.o8903661
+cat sage_job.o8903676
+cat sage_job.o8903682
+rm sage_job.o8903682
+ls
+cat sage_job.o8904307
+nano n_20_BetterWayToBuildReduceSystem.sage
+nano example.save
+qsub example.save
+ls
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+ls
+rm sage_job.o8943890 sage_job.e8943890
+qstat -u n10186841
+ls
+cat sage_job.o8943897
+cat Better_n_15.txt
+nano Better_n_15.sage
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8943907
+cat Better_n_15.txt
+qstat -u n10186841
+ls
+qstat -u n10186841
+ls
+cat sage_job.e8943885
+cat sage_job.o8943885
+nano example.save
+qsub example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qdel 8944169.pbs
+qstat -u n10186841
+nano example.save
+qstat -u n10186841
+ls
+cat sage_job.o8944161
+catBetter_n_15.txt
+cat Better_n_15.txt
+qstat -u n10186841
+nano example.save
+qstat -u n10186841
+ls
+qsub example.save
+qstat -u n10186841
+ls
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8906952
+nano example.save
+ls
+cat example.save.e8954050
+nano example.save
+nano example
+ls
+nano example.save.save
+mv example.save.save example.save
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8954055
+ls
+cat Better_n_15.txt
+ls
+cat sage_job.e8954055
+nano example.save
+nano Better_n_15.sage
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8968024
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8968047
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+nano example.save
+qstat -u n10186841
+ls
+nano Generic_LFSR_NFSR_Combiner_AlgebraicAttackn=15_Homeogeneous.sage
+qstat -u n10186841
+ls
+cat sage_job.o8968308
+ls
+cat sage_job.e8968308
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8968308
+nano example.save
+qsub example.save
+qstat -u n10186841
+del 8971989.pbs 
+qdel 8971989.pbs 
+nano example.save
+l
+ls
+cat example.save.o8971985
+cat example.save.e8971985
+rm example.save.*
+ls
+qsub example.save
+qstat -u n10186841
+qdel 8971990.pbs
+nano exmaple
+nano example
+ls
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8971993
+ls
+cat sage_job.e8971993
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8971998
+cat sage_job.e8971998
+qsub example.save
+ls
+rm sage_job.o8971993 sage_job.o8971998 sage_job.e8971993 sage_job.e8971998
+qstat -u n10186841
+ls
+cat sage_job.o8972000
+ls
+cat sage_job.e8972000
+qsub example.save
+rm sage_job.o8972000 sage_job.e8972000
+qstat -u n10186841
+ls
+cat sage_job.o8972005
+cat sage_job.e8972005
+nano example.save
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8972035
+cat sage_job.e8972035
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8972037
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8972041
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 8972022.pbs 
+qstat -u n10186841
+qdel 8972022.pbs 
+qstat -u n10186841
+qsub example.save
+ls
+qstat -u n10186841
+ls
+cat sage_job.o8972088
+ls
+cat sage_job.e8972088
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8972433
+qsub example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8972522
+ls
+qsub example.save
+ls
+cat sage_job.e8972523
+qstat -u n10186841
+l
+ls
+cat sage_job.o8972525
+qsub example.save
+qstat -u n10186841
+qdel 8972530.pbs 
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qdel 8972535.pbs
+qstat -u n10186841
+ls
+cat sage_job.o8972542
+qstat -u n10186841
+cat sage_job.o8972542
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8972569
+qstat -u n10186841
+ls
+nano example.save
+qsub example.save
+nano Better_n_20.sage
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8981641
+cat sage_job.e8981641
+cat sage_job.e8981640
+cat sage_job.o8981640
+cat sage_job.o8981639
+cat sage_job.o8981638
+cat sage_job.o8981637
+nano Better_n_20
+nano Better_n_20.sage
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qdel 89840*
+qdel 8984001.pbs
+qdel 8984002.pbs
+qdel 8984003.pbs
+qdel 8984004.pbs
+qdel 8984005.pbs
+qdel 8984006.pbs
+qdel 8984007.pbs
+qdel 8984008.pbs
+qdel 8984009.pbs
+qdel 8984010.pbs
+qdel 8984011.pbs
+qdel 8984012.pbs
+qdel 8984013.pbs
+qdel 8984014.pbs
+qdel 8984015.pbs
+qdel 8984016.pbs
+qdel 8984017.pbs
+qdel 8984018.pbs
+qdel 8984019.pbs
+qdel 8984020.pbs
+qdel 8984021.pbs
+qdel 8984022.pbs
+qdel 8984023.pbs
+qdel 8984024.pbs
+qdel 8984025.pbs
+ls
+qstat -u n10186841
+nano Better_n_15.sage 
+nano example.save
+qsub example.save
+ls
+qstat -u n10186841
+ls
+cat sage_job.o8984802
+cat sage_job.e8984802
+qsub example.save
+qstat -u n10186841
+qsub example.save
+nano         Final_System[j] = Final_System[j]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-4 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-13 )]+ S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9 )]+ S[(i+state_size+j)-(state_size-1)]+(S[(i+state_size+j)-(state_size-13)]+S[(i+state_size+j)-(state_size-1)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-4)]*S[(i+state_size+j)-(state_size-9)]+S[(i+state_size+j)-(state_size-9)]*S[(i+state_size+j)-(state_size-13)]+1)*O[i+j]
+nano Better_n_15.sage 
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qdel 8985058.pbs 
+qstat -u n10186841
+qdel 8985058.pbs 
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8985072
+cat sage_job.o8985072
+ls
+cat Better_n_15_System.txt
+qsub example.save
+qstat -u n10186841
+ls
+qstat -u n10186841
+ls
+cat Better_n_15_System.txt
+qstat -u n10186841
+ls
+cat sage_job.o8985089
+ls
+cat sage_job.e8985089
+cat sage_job.o8985072
+cat sage_job.e8985072
+ls
+cat Better_n_15_System.txt
+ls
+nano Better_n_15_Build_System_PrintToFile.sage
+nano example.save
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8985707
+cat sage_job.e8985707
+rm sage_job.e8985707 sage_job.o8985707
+qsub example.save
+qstat -u n10186841
+nano example.save
+qstat -u n10186841
+ls
+cat Better_n_15_System.txt
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8985934
+ls
+cat sage_job.e8985934
+nano example.save
+qsub example.save
+rm sage_job.o8985934 sage_job.e8985934
+qstat -u n10186841
+ls
+cat sage_job.e8986161
+cat sage_job.o8986161
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8985304
+cat sage_job.e8985304
+ls
+cat Better_n_15_System.txt
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8986310
+qstat -u n10186841
+ls
+cat sage_job.e8986171
+ls
+cat sage_job.e8986310
+ls
+nano example.save
+qsub example.save
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8989411
+cat sage_job.o8989411
+cat sage_job.o8989412
+nano example.save
+qsub example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+qdel 8989553.pbs     
+ls
+cat sage_job.e8989547
+qsub example.save
+ls
+qdel 8989553.pbs     
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8989556
+cat sage_job.o8989555
+cat sage_job.e8989555
+qsub example.save
+qstat -u n10186841
+ls
+rm sage_job.o8989555 sage_job.e8989555
+qstat -u n10186841
+ls
+cat sage_job.o8990260
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8990435
+cat sage_job.o8990435
+nano Better_n_20.sage
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.e8994079
+cat sage_job.o8994079
+qsub example.save
+qstat -u n10186841
+qdel 8996283.pbs
+qstat -u n10186841
+ls
+cat sage_job.e8996282
+qsub example.save
+rm sage_job.e8996282 sage_job.o8996282
+qstat -u n10186841
+ls
+cat sage_job.o8996287
+ls
+cat sage_job.o8996287
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o8996287
+qstat -u n10186841
+nano example
+nano example.save
+qstat -u n10186841
+ls
+qsub example.save
+qstat -u n10186841
+qdel 9000972.pbs
+qstat -u n10186841
+ls
+cat sage_job.o9000971
+ls
+cat sage_job.o9000816
+cat sage_job.e9000816
+nano example.save
+qsub example.save
+qstat -u n10186841
+cat sage_job.e9000816
+qstat -u n10186841
+ls
+cat sage_job.o9001091
+nano example.save
+qsub example.save
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+cat sage_job.o9001091
+qstat -u n10186841
+ls
+cat sage_job.o9002316
+cat sage_job.o9002317
+cat sage_job.o9002318
+cat sage_job.o9002319
+cat sage_job.o9002320
+cat sage_job.o9002321
+cat sage_job.o9002322
+cat sage_job.o9002323
+cat sage_job.o9002324
+qstat -u n10186841
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o9002316
+cat sage_job.o9002317
+cat sage_job.o9002318
+cat sage_job.o9002319
+cat sage_job.o9002320
+cat sage_job.o9002321
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 9004525.pbs
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o9004713
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 9005399.pbs 
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+qdel 8895224.pbs
+qstat -u n10186841
+ls
+sage_job.o9147135
+cat sage_job.o9147135
+cat sage_job.e9147135
+ls
+nano example.save
+nano Better_Sprout.save
+nano Better_Sprout
+ls
+nano example.save
+qsub example.save
+nano example.save
+qsub example.save
+nano example.save
+qstat -u n10186841
+ls
+cat sage_job.o9388144
+cat sage_job.o9388143
+cat sage_job.o9388142
+cat sage_job.o9388141
+cat sage_job.o9388139
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o9402662
+ls
+cat sage_job.o9388144
+nano example.save
+qsub example.save
+nano example.save
+qsub example.save
+nano exmaple.save
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o9405716
+qstat -u n10186841
+nano example.save
+qsub example.save
+qstat -u n10186841
+ls
+cat sage_job.o9417049
+cat sage_job.o9417050
